@@ -1,0 +1,33 @@
+body {
+  background-color: #eaf6f4;
+}
+#container-photos {
+  padding: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  margin: 5px;
+}
+#photo-detail {
+  width: 82%;
+  display: flex;
+  position: fixed;
+  flex-wrap: wrap;
+  left: 9%;
+  justify-content: center;
+  z-index: 1;
+}
+#thumbnail {
+  border-radius: 50%;
+  overflow: hidden;
+}
+#close-button {
+  font-size: 32px;
+  position: relative;
+  left: 96%;
+  background: white;
+  border: 0px;
+  padding: 0px 10px;
+}
